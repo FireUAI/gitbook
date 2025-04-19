@@ -1,7 +1,6 @@
 # Como Maximizar o Anonimato na Internet: Um Guia Técnico
 
-**Escrito por Lucas Albano**
-*Revisado com uso do ChatGPT-4o*
+**Escrito por Lucas Albano** - *Revisado com uso do ChatGPT-4o*
 
 Alcançar o anonimato completo na internet é, na prática, impossível. A única maneira de garantir total invisibilidade seria abandonar completamente o uso de tecnologias e desconectar-se permanentemente da rede — algo inviável para a maioria das pessoas. No entanto, é possível adotar uma série de estratégias técnicas e comportamentais que, combinadas, elevam significativamente o grau de anonimato e dificultam qualquer tentativa de rastreamento ou correlação de identidade. Essa abordagem demanda atenção a múltiplas camadas: **hardware**, **rede**, **identidade digital** e **comportamento**.
 
