@@ -10,3 +10,6 @@
 - [Estrutura de uma URL](./Estrutura%20de%20uma%20URL.md)
 - [IDOR](./IDOR.md)
 - [SQL Injection](./SQL%20Injection.md)
+- [Como ser Anônimo](./Como%20ser%20Anônimo.md)
+- [Criptografia](./Criptografia.md)
+- [Escalação de Privilégios](Privilege%20Escalation.md)
