@@ -14,3 +14,4 @@
 * [Como ser Anônimo](<Como ser Anônimo.md>)
 * [Criptografia](Criptografia.md)
 * [Escalação de Privilégios](<Privilege Escalation.md>)
+* [Reconhecimento do Alvo](<Reconhecimento do Alvo.md>)
