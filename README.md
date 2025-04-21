@@ -1,9 +1,11 @@
 ---
+description: B3m-v1nd0 40 G1tb00k d0 F1r3U41
 icon: hand-wave
 ---
+
 # FireUAI
 
-Este GitBook reúne os materiais de estudo produzidos pelo grupo FireUAI. Ele serve como uma base de conhecimento colaborativa sobre cibersegurança, com artigos que abordam desde os conceitos fundamentais até técnicas mais avançadas. 
+Este GitBook reúne os materiais de estudo produzidos pelo grupo FireUAI. Ele serve como uma base de conhecimento colaborativa sobre cibersegurança, com artigos que abordam desde os conceitos fundamentais até técnicas mais avançadas.
 
 ## ✅ Artigos finalizados
 
@@ -33,9 +35,9 @@ Estes temas estão sendo escritos ou revisados no momento:
 
 Tópicos que ainda não foram iniciados, mas estão em nosso planejamento:
 
-- Buffer Overflow
-- Directory Scan
-- Metasploit
-- Port Scan
-- XSS
-- (entre outros)
+* Buffer Overflow
+* Directory Scan
+* Metasploit
+* Port Scan
+* XSS
+* (entre outros)
