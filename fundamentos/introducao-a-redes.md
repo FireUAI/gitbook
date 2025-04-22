@@ -4,15 +4,13 @@
 
 Uma rede de computadores é um conjunto de dispositivos interconectados que são capazes de trocar informações e recursos. Esses dispositivos podem incluir computadores, servidores, dispositivos de rede (como roteadores e switches) e outros equipamentos. A finalidade principal de uma rede de computadores é permitir a comunicação entre os dispositivos, facilitando o compartilhamento de recursos, como arquivos, impressoras e conexão com a internet.
 
-As redes de computadores podem ser classificadas de diversas maneiras, dependendo de seu tamanho, localização geográfica e tipo de tecnologia de comunicação utilizada. Elas podem variar desde pequenas redes domésticas (*Local Area Network* - LAN) até grandes redes corporativas ou até mesmo redes globais (*Wide Area Network* - WAN), como a internet. As redes podem ser cabeadas, utilizando cabos físicos para a transmissão de dados, ou sem fio, utilizando tecnologias como Wi-Fi e Bluetooth.
+As redes de computadores podem ser classificadas de diversas maneiras, dependendo de seu tamanho, localização geográfica e tipo de tecnologia de comunicação utilizada. Elas podem variar desde pequenas redes domésticas (_Local Area Network_ - LAN) até grandes redes corporativas ou até mesmo redes globais (_Wide Area Network_ - WAN), como a internet. As redes podem ser cabeadas, utilizando cabos físicos para a transmissão de dados, ou sem fio, utilizando tecnologias como Wi-Fi e Bluetooth.
 
 ### Internet
 
-A Internet é uma rede de computadores que interconecta centenas de milhões de dispositivos de computação ao redor do mundo. Na verdade, o termo rede de computadores está começando a soar um tanto desatualizado, dados os muitos equipamentos não tradicionais que estão sendo ligados à Internet. A Internet pode ser descrita como uma rede de redes, onde cada rede individual pode ter sua própria estrutura e propósito, mas todas estão interligadas e podem se comunicar umas com as outras. Essas redes podem ser redes locais em empresas ou residências, data centers e até mesmo redes de dispositivos da Internet da Coisa (IoT) como geladeiras, câmeras e lâmpadas inteligentes, todas conectadas por meio de Provedores de Serviços de Internet (*Internet Service Providers* - ISPs). ISPs geralmente são empresas de TV a cabo ou telefonia, universidades, entre outros.
+A Internet é uma rede de computadores que interconecta centenas de milhões de dispositivos de computação ao redor do mundo. Na verdade, o termo rede de computadores está começando a soar um tanto desatualizado, dados os muitos equipamentos não tradicionais que estão sendo ligados à Internet. A Internet pode ser descrita como uma rede de redes, onde cada rede individual pode ter sua própria estrutura e propósito, mas todas estão interligadas e podem se comunicar umas com as outras. Essas redes podem ser redes locais em empresas ou residências, data centers e até mesmo redes de dispositivos da Internet da Coisa (IoT) como geladeiras, câmeras e lâmpadas inteligentes, todas conectadas por meio de Provedores de Serviços de Internet (_Internet Service Providers_ - ISPs). ISPs geralmente são empresas de TV a cabo ou telefonia, universidades, entre outros.
 
-<div style="text-align: center">
-    <img src="./Imagens/internet.png" alt="internet">
-</div>
+![internet](../Imagens/internet.png)
 
 Um aspecto fundamental da Internet é a sua abertura e descentralização. Não existe uma única entidade ou organização que controle a Internet como um todo. Em vez disso, ela é composta por uma infinidade de provedores de serviços, empresas, organizações sem fins lucrativos e indivíduos que contribuem para a sua operação e desenvolvimento. Esta descentralização é parte do que torna a Internet resiliente e flexível, permitindo sua adaptação a novas tecnologias e desafios ao longo do tempo.
 
@@ -24,15 +22,11 @@ A infraestrutura de rede é o conjunto de componentes físicos e lógicos que pe
 
 Um dos paradigmas fundamentais na infraestrutura de rede é o modelo cliente-servidor. Nesse modelo, os dispositivos na rede são geralmente divididos em dois tipos: clientes e servidores. Os clientes são dispositivos que solicitam serviços ou recursos da rede, enquanto os servidores são dispositivos que fornecem esses serviços ou recursos em resposta às solicitações dos clientes.
 
-<div style="text-align: center">
-    <img src="./Imagens/client-server.png" alt="client-server">
-</div>
+![client-server](../Imagens/client-server.png)
 
 Por exemplo, em uma rede de computadores em uma empresa, os funcionários podem usar seus computadores (clientes) para acessar arquivos armazenados em um servidor de arquivos. Neste caso, o cliente envia uma solicitação ao servidor para acessar o arquivo desejado, e o servidor responde fornecendo o arquivo solicitado.
 
-<div style="text-align: center">
-    <img src="./Imagens/client-server2.png" alt="client-server2">
-</div>
+![client-server2](../Imagens/client-server2.png)
 
 A arquitetura cliente-servidor oferece vantagens significativas em termos de escalabilidade, flexibilidade e segurança. Os servidores centralizam recursos e dados, facilitando a administração e o gerenciamento da rede. Além disso, esse modelo permite que os clientes acessem recursos compartilhados de forma eficiente e segura.
 
@@ -50,20 +44,15 @@ Uma das principais vantagens do uso de pacotes é a capacidade de transmitir dad
 
 Para reduzir a complexidade de seu projeto, a maioria das redes é organizada como uma pilha de camadas (ou níveis), colocadas umas sobre as outras. O número, o nome, o conteúdo e a função de cada camada diferem de uma rede para outra. No entanto, em todas as redes o objetivo de cada camada é oferecer determinados serviços às camadas superiores, isolando essas camadas dos detalhes de implementação real desses recursos. Em certo sentido, cada camada é uma espécie de máquina virtual, oferecendo determinados serviços à camada situada acima dela.
 
-<div style="text-align: center">
-    <img src="./Imagens/camadasderede.png" alt="camadasderede">
-</div>
+![camadasderede](../Imagens/camadasderede.png)
 
 Todas as atividades na Internet que envolvem duas ou mais entidades remotas comunicantes são governadas por um protocolo. Basicamente, um protocolo é um acordo entre as partes que se comunicam, estabelecendo como se dará a comunicação. Por exemplo, protocolos executados no hardware de dois computadores conectados fisicamente controlam o fluxo de bits no “cabo” entre as duas placas de interface de rede; protocolos de controle de congestionamento em sistemas finais controlam a taxa com que os pacotes são transmitidos entre a origem e o destino; protocolos em roteadores determinam o caminho de um pacote da origem ao destino.
 
 > Um protocolo define o formato e a ordem das mensagens trocadas entre duas ou mais entidades comunicantes, bem como as ações realizadas na transmissão e/ou no recebimento de uma mensagem ou outro evento.
 
-Como exemplo de um protocolo de rede de computadores com o qual você provavelmente está familiarizado, considere o que acontece quando fazemos uma requisição a um servidor Web, isto é, quando digitamos o URL de uma página Web no browser. Primeiro, o computador enviará uma
-mensagem de requisição de conexão ao servidor Web e aguardará uma resposta. O servidor receberá essa mensagem de requisição de conexão e retornará uma mensagem de resposta de conexão. Sabendo que agora está tudo certo para requisitar o documento da Web, o computador envia então o nome da página Web que quer buscar naquele servidor com uma mensagem GET. Por fim, o servidor retorna a página (arquivo) para o computador.
+Como exemplo de um protocolo de rede de computadores com o qual você provavelmente está familiarizado, considere o que acontece quando fazemos uma requisição a um servidor Web, isto é, quando digitamos o URL de uma página Web no browser. Primeiro, o computador enviará uma mensagem de requisição de conexão ao servidor Web e aguardará uma resposta. O servidor receberá essa mensagem de requisição de conexão e retornará uma mensagem de resposta de conexão. Sabendo que agora está tudo certo para requisitar o documento da Web, o computador envia então o nome da página Web que quer buscar naquele servidor com uma mensagem GET. Por fim, o servidor retorna a página (arquivo) para o computador.
 
-<div style="text-align: center">
-    <img src="./Imagens/protocolo.png" alt="protocolo">
-</div>
+![protocolo](../Imagens/protocolo.png)
 
 Um conjunto de camadas e protocolos é chamado **arquitetura de rede**. A especificação de uma arquitetura deve conter informações suficientes para permitir que um implementador desenvolva o programa ou construa o hardware de cada camada de forma que ela obedeça corretamente ao protocolo adequado. Nem os detalhes da implementação nem a especificação das interfaces pertencem à arquitetura, pois tudo fica oculto dentro das máquinas e não é visível do exterior. Nem sequer é necessário que as interfaces de todas as máquinas de uma rede sejam iguais, desde que cada uma delas possa usar todos os protocolos da maneira correta.
 
@@ -71,9 +60,7 @@ Um conjunto de camadas e protocolos é chamado **arquitetura de rede**. A especi
 
 Citamos que a maioria das redes é organizada como uma pilha de camadas para reduzir sua complexidade. Portanto, iremos destacar duas importantes arquiteturas de rede: os modelos de referência OSI e TCP/IP. Embora os protocolos associados ao modelo OSI raramente sejam usados nos dias de hoje, o modelo em si é de fato bastante geral e ainda válido, e as características descritas em cada camada ainda são muito importantes. O modelo TCP/IP tem características opostas: o modelo propriamente dito não é muito utilizado, mas os protocolos são bastante utilizados. Ambos se baseiam no conceito de uma pilha de protocolos independentes. Além disso, as camadas têm praticamente as mesmas funcionalidades. Por exemplo, em ambos os modelos estão presentes as camadas que englobam até a camada de transporte para oferecer um serviço de transporte de ponta a ponta, independente da rede, a processos que desejam se comunicar.
 
-<div style="text-align: center">
-    <img src="./Imagens/osi_tcpip.png" alt="osi_tcpip">
-</div>
+![osi\_tcpip](../Imagens/osi_tcpip.png)
 
 O **Modelo OSI** (Open Systems Interconnection) é um modelo de referência que descreve e padroniza a comunicação entre sistemas de computadores em uma rede. Desenvolvido pela International Organization for Standardization (ISO) no fim da década de 1970, o Modelo OSI é dividido em sete camadas, cada uma com funções específicas e bem definidas.
 
@@ -96,7 +83,7 @@ O **Modelo TCP/IP** (Transmission Control Protocol/Internet Protocol) ao contrá
 
 ### Internet Protocol - IP
 
-O Protocolo de Internet (*Internet Protocol* - IP) é um dos principais protocolos de comunicação das redes de computadores modernas. Ele é responsável por fornecer a identificação e o endereçamento dos dispositivos na rede, bem como o roteamento dos pacotes de dados de um ponto a outro.
+O Protocolo de Internet (_Internet Protocol_ - IP) é um dos principais protocolos de comunicação das redes de computadores modernas. Ele é responsável por fornecer a identificação e o endereçamento dos dispositivos na rede, bem como o roteamento dos pacotes de dados de um ponto a outro.
 
 O IP opera na camada de rede do Modelo OSI e utiliza um sistema de endereçamento único, conhecido como endereço IP, para identificar cada dispositivo conectado à rede. Os endereços IP são compostos por uma sequência de números binários, geralmente expressos em formato decimal separado por pontos, como por exemplo, "192.0.2.1".
 
@@ -106,7 +93,7 @@ O IPv6 é uma versão mais recente do Protocolo de Internet, projetada para reso
 
 ### TCP e UDP
 
-Os protocolos TCP (*Transmission Control Protocol*) e UDP (*User Datagram Protocol*) são dois dos principais protocolos da camada de transporte utilizados em redes de computadores.
+Os protocolos TCP (_Transmission Control Protocol_) e UDP (_User Datagram Protocol_) são dois dos principais protocolos da camada de transporte utilizados em redes de computadores.
 
 O TCP é um protocolo orientado à conexão e confiável, projetado para garantir que os dados sejam entregues de forma ordenada, sem erros, e com confirmação de recebimento. Ele divide os dados em segmentos e estabelece uma conexão antes de iniciar a transferência de dados. Durante a transmissão, o TCP monitora o fluxo de dados, retransmitindo pacotes perdidos ou danificados e garantindo que eles cheguem ao destino corretamente. Isso faz com que o TCP seja ideal para aplicativos que exigem uma transmissão precisa e completa dos dados, como transferências de arquivos, acesso remoto e navegação na web.
 
@@ -116,7 +103,7 @@ Embora o TCP e o UDP tenham diferentes abordagens para a transmissão de dados, 
 
 ### DNS
 
-O Sistema de Nomes de Domínio (DNS - *Domain Name System*) é um dos componentes essenciais da infraestrutura da Internet, responsável por traduzir nomes de domínio amigáveis, como "exemplo.com", em endereços IP numéricos, como "192.0.2.1", que são utilizados pelos computadores para se comunicarem na rede.
+O Sistema de Nomes de Domínio (DNS - _Domain Name System_) é um dos componentes essenciais da infraestrutura da Internet, responsável por traduzir nomes de domínio amigáveis, como "exemplo.com", em endereços IP numéricos, como "192.0.2.1", que são utilizados pelos computadores para se comunicarem na rede.
 
 Sem o DNS, os usuários teriam que memorizar e utilizar endereços IP numéricos para acessar sites e recursos online, o que seria impraticável. O DNS simplifica esse processo ao fornecer um sistema hierárquico de nomes de domínio que é mais fácil de ser lembrado e utilizado pelos humanos.
 
@@ -126,7 +113,7 @@ Quando um usuário digita um nome de domínio em seu navegador da web, o computa
 
 ### HTTP
 
-O Protocolo de Transferência de Hipertexto (HTTP - *Hypertext Transfer Protocol*) é um dos principais protocolos de comunicação utilizados na *World Wide Web*. Ele define as regras e convenções para a transferência de dados entre um cliente (geralmente um navegador da web) e um servidor web.
+O Protocolo de Transferência de Hipertexto (HTTP - _Hypertext Transfer Protocol_) é um dos principais protocolos de comunicação utilizados na _World Wide Web_. Ele define as regras e convenções para a transferência de dados entre um cliente (geralmente um navegador da web) e um servidor web.
 
 O HTTP opera no nível de aplicação do Modelo OSI e é baseado no modelo de requisição e resposta. Isso significa que, quando um cliente deseja acessar um recurso (como uma página da web) em um servidor, ele envia uma requisição HTTP ao servidor especificando o recurso desejado. O servidor, por sua vez, responde à requisição enviando os dados solicitados de volta ao cliente.
 
@@ -138,21 +125,22 @@ Ao longo dos anos, o HTTP evoluiu através de diferentes versões, com melhorias
 
 ## Vulnerabilidades
 
-As redes de computadores são um serviço essencial nos dias de hoje. No entanto, elas apresentam várias vulnerabilidades que podem ser exploradas por indivíduos mal-intencionados com o objetivo de obter dados confidenciais ou negar o acesso a algum serviço. Um simples exemplo de vulnerabilidade é perceptível ao se notar a facilidade de criar um pacote com qualquer endereço de origem, conteúdo de pacote e endereço de destino e transmiti-lo para a Internet, que sem nenhum problema o encaminhará ao destino. A capacidade de introduzir pacotes na Internet com um endereço de origem falso é conhecida como IP *spoofing*, e é uma das muitas maneiras pelas quais um usuário pode se passar por outro.
+As redes de computadores são um serviço essencial nos dias de hoje. No entanto, elas apresentam várias vulnerabilidades que podem ser exploradas por indivíduos mal-intencionados com o objetivo de obter dados confidenciais ou negar o acesso a algum serviço. Um simples exemplo de vulnerabilidade é perceptível ao se notar a facilidade de criar um pacote com qualquer endereço de origem, conteúdo de pacote e endereço de destino e transmiti-lo para a Internet, que sem nenhum problema o encaminhará ao destino. A capacidade de introduzir pacotes na Internet com um endereço de origem falso é conhecida como IP _spoofing_, e é uma das muitas maneiras pelas quais um usuário pode se passar por outro.
 
-Além disso, serviços de rede, como servidores web, servidores de e-mail e servidores de arquivos, frequentemente contêm falhas de segurança que podem ser exploradas por atacantes para obter acesso não autorizado aos sistemas ou roubar informações sensíveis. Por exemplo, vulnerabilidades em servidores web podem permitir ataques de SQL *injection* ou *cross-site scripting* (XSS).
+Além disso, serviços de rede, como servidores web, servidores de e-mail e servidores de arquivos, frequentemente contêm falhas de segurança que podem ser exploradas por atacantes para obter acesso não autorizado aos sistemas ou roubar informações sensíveis. Por exemplo, vulnerabilidades em servidores web podem permitir ataques de SQL _injection_ ou _cross-site scripting_ (XSS).
 
 Também, Redes Wi-Fi são frequentemente alvo de ataques devido à sua natureza sem fio e à falta de segurança adequada. Atacantes podem usar técnicas como sniffing, spoofing e cracking de senhas para comprometer redes Wi-Fi e acessar dados sensíveis.
 
-Outro ponto preocupante são os dispositivos IoT, como câmeras de segurança, termostatos inteligentes e dispositivos médicos conectados à Internet. Esses dispositivos frequentemente têm falhas de segurança que podem ser exploradas por invasores para acesso não autorizado ou controle remoto. Por exemplo, senhas padrão fracas ou falta de atualizações de segurança podem deixar os dispositivos vulneráveis a infecção por malwares construtores de *botnets*.
+Outro ponto preocupante são os dispositivos IoT, como câmeras de segurança, termostatos inteligentes e dispositivos médicos conectados à Internet. Esses dispositivos frequentemente têm falhas de segurança que podem ser exploradas por invasores para acesso não autorizado ou controle remoto. Por exemplo, senhas padrão fracas ou falta de atualizações de segurança podem deixar os dispositivos vulneráveis a infecção por malwares construtores de _botnets_.
 
-Os Ataques de Negação de Serviço (DoS) são uma forma de impedir o acesso a determinado recurso ou serviço por meio da sobrecarga de um dispositivo ou rede. Essa sobrecarga torna o serviço inacessível para usuários legítimos, causando uma negação de serviço. Por sua vez, o ataque de negação de serviço distribuído (DDoS) é realizado por uma rede de dispositivos comprometidos, as *botnets* anteriormente citadas, que são controlados remotamente pelo atacante. Os dispositivos na *botnet* podem incluir computadores, servidores, dispositivos IoT e até mesmo dispositivos móveis. O objetivo de um ataque DDoS pode variar, desde prejudicar a reputação de uma empresa até extorquir dinheiro por meio de resgate ou simplesmente interromper as operações de uma organização.
+Os Ataques de Negação de Serviço (DoS) são uma forma de impedir o acesso a determinado recurso ou serviço por meio da sobrecarga de um dispositivo ou rede. Essa sobrecarga torna o serviço inacessível para usuários legítimos, causando uma negação de serviço. Por sua vez, o ataque de negação de serviço distribuído (DDoS) é realizado por uma rede de dispositivos comprometidos, as _botnets_ anteriormente citadas, que são controlados remotamente pelo atacante. Os dispositivos na _botnet_ podem incluir computadores, servidores, dispositivos IoT e até mesmo dispositivos móveis. O objetivo de um ataque DDoS pode variar, desde prejudicar a reputação de uma empresa até extorquir dinheiro por meio de resgate ou simplesmente interromper as operações de uma organização.
 
-Um ataque de *Man-in-the-Middle* (MitM) ocorre quando um invasor intercepta e modifica comunicações entre duas partes, sem o conhecimento ou consentimento delas. O atacante se posiciona entre o remetente e o destinatário e pode ler, modificar ou até mesmo injetar novos dados na comunicação. Este tipo de ataque pode ser realizado em diferentes cenários, como redes Wi-Fi não seguras, redes com fio comprometidas, ou até mesmo em comunicações criptografadas, se o atacante tiver acesso às chaves de criptografia. Os ataques de homem-no-meio podem ser usados para capturar informações confidenciais, como senhas ou informações de cartão de crédito, realizar alterações em transações financeiras, ou até mesmo redirecionar o tráfego para sites falsos para realizar phishing.
+Um ataque de _Man-in-the-Middle_ (MitM) ocorre quando um invasor intercepta e modifica comunicações entre duas partes, sem o conhecimento ou consentimento delas. O atacante se posiciona entre o remetente e o destinatário e pode ler, modificar ou até mesmo injetar novos dados na comunicação. Este tipo de ataque pode ser realizado em diferentes cenários, como redes Wi-Fi não seguras, redes com fio comprometidas, ou até mesmo em comunicações criptografadas, se o atacante tiver acesso às chaves de criptografia. Os ataques de homem-no-meio podem ser usados para capturar informações confidenciais, como senhas ou informações de cartão de crédito, realizar alterações em transações financeiras, ou até mesmo redirecionar o tráfego para sites falsos para realizar phishing.
 
-Existem várias outras vulnerabilidades específicas de redes, portanto, é importante manter-se atualizado sobre as melhores práticas de segurança e adotar uma postura proativa na proteção das redes e dos sistemas contra esses tipos de ameaças. 
+Existem várias outras vulnerabilidades específicas de redes, portanto, é importante manter-se atualizado sobre as melhores práticas de segurança e adotar uma postura proativa na proteção das redes e dos sistemas contra esses tipos de ameaças.
 
 ## Referências
 
-TANENBAUM, Andrew S. Redes de computadores. Pearson.
+TANENBAUM, Andrew S. Redes de computadores. Pearson.&#x20;
+
 KUROSE, J.F. Redes de Computadores e a Internet: uma abordagem top-down. Pearson.

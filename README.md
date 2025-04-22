@@ -11,25 +11,25 @@ Este GitBook reúne os materiais de estudo produzidos pelo grupo FireUAI. Ele se
 
 Estes artigos já estão completos e disponíveis para leitura:
 
-* [Conceitos Básicos](<Conceitos Básicos.md>)
-* [Essencial de Linux](<Essencial de Linux.md>)
-* [Introdução à Redes](<Introdução à Redes.md>)
-* [O protocolo HTTP](<HTTP e HTTPS.md>)
-* [Estrutura de uma URL](<Estrutura de uma URL.md>)
-* [IDOR](IDOR.md)
-* [SQL Injection](<SQL Injection.md>)
-* [Como ser Anônimo](<Como ser Anônimo.md>)
-* [Criptografia](Criptografia.md)
-* [Escalação de Privilégios](<Privilege Escalation.md>)
-* [Reconhecimento do Alvo](<Reconhecimento do Alvo.md>)
+* [Conceitos Básicos](introducao/conceitos-basicos.md)
+* [Essencial de Linux](fundamentos/essencial-de-linux.md)
+* [Introdução à Redes](fundamentos/introducao-a-redes.md)
+* [O protocolo HTTP](seguranca-web/http-e-https.md)
+* [Estrutura de uma URL](seguranca-web/estrutura-de-uma-url.md)
+* [IDOR](seguranca-web/idor.md)
+* [SQL Injection](seguranca-web/sql-injection.md)
+* [Como ser Anônimo](extras/como-ser-anonimo.md)
+* [Criptografia](criptografia/criptografia.md)
+* [Escalação de Privilégios](full-pwn/privilege-escalation.md)
+* [Reconhecimento do Alvo](full-pwn/reconhecimento-do-alvo.md)
 
 ## ✏️ Artigos em desenvolvimento
 
 Estes temas estão sendo escritos ou revisados no momento:
 
-* [Ética](Ética.md)
-* [Profissões em cibersegurança](<Profissões em cibersegurança.md>)
-* [Tipos de Hacker](<Tipos de Hacker.md>)
+* [Ética](introducao/etica.md)
+* [Profissões em cibersegurança](introducao/profissoes-em-ciberseguranca.md)
+* [Tipos de Hacker](introducao/tipos-de-hacker.md)
 
 ## 📌 Artigos planejados
 

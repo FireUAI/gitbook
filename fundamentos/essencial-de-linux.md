@@ -1,12 +1,16 @@
 # Essencial de Linux
+
+## Essencial de Linux
+
 **Autor: Lucas Albano**
 
 Neste artigo vamos explorar conceitos básicos de sistemas Linux. Além disso, vamos apresentar a distribuição Kali Linux, uma distribuição focada em segurança da informação e testes de penetração.
-# Linux
+
+## Linux
 
 No contexto da cibersegurança, o conhecimento e a compreensão de sistemas operacionais desempenha um papel crucial. Entre as várias opções disponíveis, o Linux se destaca como uma escolha popular entre profissionais de segurança da informação e entusiastas de tecnologia. Esta seção oferece uma visão geral do Linux, desde sua definição até sua relevância no campo da cibersegurança.
 
-## O que é Linux
+### O que é Linux
 
 GNU/Linux é um sistema operacional de código aberto distribuído gratuitamente e pode ser modificado e redistribuído por qualquer pessoa de acordo com os termos da licença GNU General Public License (GPL). Ele oferece uma alternativa viável e poderosa aos sistemas operacionais comerciais, como Windows e macOS. O principal destaque do GNU/Linux é sua flexibilidade e capacidade de personalização, o que o torna uma escolha popular entre desenvolvedores, administradores de sistemas e entusiastas de tecnologia em geral.
 
@@ -14,9 +18,9 @@ Linux foi o nome dado ao núcleo de sistema operacional criado por Linus Torvald
 
 O Linux oferece uma ampla variedade de distribuições, conhecidas como "distros", que atendem a diferentes necessidades e preferências dos usuários. Algumas das distros mais populares incluem Ubuntu, Fedora, Debian e CentOS, cada uma com suas próprias características e conjuntos de software.
 
-## Uma Breve História do Linux
+### Uma Breve História do Linux
 
-O Linux foi criado por Linus Torvalds no início dos anos 90, enquanto ele era um estudante de informática na Universidade de Helsinki, na Finlândia. Torvalds havia se matriculado em um curso de UNIX, e um dos textos obrigatórios era *Operating Systems: Design and Implementation* escrito por Andrew S. Tanenbaum. O livro incluía uma cópia do sistema operacional MINIX de Tanenbaum, no entanto, o licenciamento do MINIX o restringia ao uso educacional. Assim, Torvalds decidiu iniciar um projeto pessoal para desenvolver um kernel similar ao UNIX, mas livre e de código aberto. 
+O Linux foi criado por Linus Torvalds no início dos anos 90, enquanto ele era um estudante de informática na Universidade de Helsinki, na Finlândia. Torvalds havia se matriculado em um curso de UNIX, e um dos textos obrigatórios era _Operating Systems: Design and Implementation_ escrito por Andrew S. Tanenbaum. O livro incluía uma cópia do sistema operacional MINIX de Tanenbaum, no entanto, o licenciamento do MINIX o restringia ao uso educacional. Assim, Torvalds decidiu iniciar um projeto pessoal para desenvolver um kernel similar ao UNIX, mas livre e de código aberto.
 
 Em 1991, Linus Torvalds lançou a primeira versão oficial do kernel do Linux, a versão 0.02. No ano de 1992, ele mudou a licença do núcleo Linux, de uma licença própria para uma licença livre compatível com a GPL do projeto GNU. Isso atraiu uma comunidade de desenvolvedores entusiastas, que contribuíram para o desenvolvimento do sistema operacional, adicionando novos recursos, corrigindo bugs e adaptando-o para diferentes necessidades e dispositivos.
 
@@ -26,7 +30,7 @@ Nos anos seguintes, o Linux expandiu-se para uma variedade de dispositivos, desd
 
 O sucesso do Linux não se limita apenas ao software. Ele também inspirou uma filosofia de colaboração aberta e compartilhamento de conhecimento, que se tornou fundamental para muitos projetos de código aberto e para a própria cultura da Internet. Hoje, o Linux é uma parte fundamental do panorama da tecnologia, alimentando uma ampla variedade de dispositivos e sistemas em todo o mundo.
 
-## Por que usar Linux?
+### Por que usar Linux?
 
 O uso do Linux no contexto da cibersegurança vai além de uma mera escolha de sistema operacional; é uma decisão estratégica fundamentada em uma série de vantagens e características que o tornam uma plataforma ideal para profissionais e estudantes de cibersegurança.
 
@@ -40,7 +44,7 @@ O Linux também é altamente compatível com uma ampla variedade de hardware, o 
 
 Em resumo, o Linux oferece uma combinação única de segurança, transparência, flexibilidade e compatibilidade que o torna uma escolha ideal para estudantes e profissionais de cibersegurança. Ao dominar as nuances desse sistema operacional, profissionais e estudantes podem desenvolver habilidades essenciais e contribuir para a construção de um ambiente digital mais seguro e resiliente.
 
-# Kali Linux
+## Kali Linux
 
 O Kali Linux é uma distribuição Linux especializada projetada especificamente para testes de penetração e auditoria de segurança. Ele é desenvolvido e mantido pela Offensive Security, uma empresa de segurança cibernética reconhecida por suas certificações e treinamentos em segurança.
 
@@ -52,18 +56,19 @@ Outro aspecto importante é o suporte da comunidade e os recursos educacionais d
 
 Além disso, o Kali Linux é altamente personalizável e pode ser adaptado às necessidades específicas de cada usuário. Os profissionais de segurança podem adicionar ou remover ferramentas conforme necessário, configurar o sistema de acordo com as políticas de segurança da organização e personalizar a interface de usuário para atender às suas preferências individuais.
 
-## Tutorial de Instalação do Kali Linux:
+### Tutorial de Instalação do Kali Linux:
 
 Tutorial oficial para instalação do Kali no VirtualBox: https://www.kali.org/docs/virtualization/install-virtualbox-guest-vm/
 
 **Passo 1: Baixar o Kali Linux**
 
 1. Acesse o site oficial do Kali Linux em https://www.kali.org/get-kali/#kali-platforms e baixe a imagem ISO mais recente do Kali Linux para a plataforma desejada. O Kali possui versões pré-montadas para Máquinas Virtuais e também possui uma distribuição para Windows Subsystem Linux.
-### Instalação em Máquina Virtual
+
+#### Instalação em Máquina Virtual
 
 **Passo 2: Criar uma nova máquina com o arquivo pré-montado**
 
-2. Extraia o arquivo baixado e crie uma nova máquina virtual em seu software de virtualização a partir deste. O processo exato para criar uma nova máquina virtual pode mudar dependendo da plataforma e software de virtualização utilizado, contudo, não é um processo muito complexo e pode ser facilmente descoberto nos tutoriais oficiais. Tutorial oficial do Virtual Box: (https://www.virtualbox.org/manual/ch01.html#create-vm-wizard). Você também pode desejar alterar as configurações padrões, como memória e CPUs alocadas para a VM. 
+2. Extraia o arquivo baixado e crie uma nova máquina virtual em seu software de virtualização a partir deste. O processo exato para criar uma nova máquina virtual pode mudar dependendo da plataforma e software de virtualização utilizado, contudo, não é um processo muito complexo e pode ser facilmente descoberto nos tutoriais oficiais. Tutorial oficial do Virtual Box: (https://www.virtualbox.org/manual/ch01.html#create-vm-wizard). Você também pode desejar alterar as configurações padrões, como memória e CPUs alocadas para a VM.
 
 **Passo 3: Iniciar o Kali Linux**
 
@@ -71,13 +76,13 @@ Tutorial oficial para instalação do Kali no VirtualBox: https://www.kali.org/d
 
 > **Dica:** Pode ser necessário configurar o teclado para o padrão brasileiro. Para isto utilize o comando `setxkbmap br abnt2`.
 
-### Instalação em Hardware
+#### Instalação em Hardware
 
 **Passo 2: Criar um dispositivo de inicialização**
 
 2. Grave a imagem ISO em um dispositivo de inicialização, como um DVD ou unidade flash USB. Você pode usar ferramentas como Rufus (para Windows) ou Etcher (para Linux e macOS) para criar um dispositivo de inicialização bootável.
 
-**Passo 3: Iniciar o computador a partir do dispositivo de inicialização** 
+**Passo 3: Iniciar o computador a partir do dispositivo de inicialização**
 
 3. Reinicie o computador e inicie a partir do dispositivo de inicialização que você criou.
 
@@ -101,11 +106,11 @@ Tutorial oficial para instalação do Kali no VirtualBox: https://www.kali.org/d
 
 8. Após reiniciar, o Kali Linux estará instalado em seu sistema. Faça login com o nome de usuário e senha que você configurou durante a instalação.
 
-# Interface de Linha de Comando (CLI)
+## Interface de Linha de Comando (CLI)
 
 Em sistemas operacionais Linux, a interface de linha de comando (CLI) desempenha um papel crucial na interação com o sistema. Dois componentes principais dessa interação são os terminais e os shells.
 
-## Terminais
+### Terminais
 
 Um terminal é uma interface de usuário que permite interagir com um sistema operacional por meio de comandos de texto. Historicamente, os terminais eram dispositivos físicos conectados a mainframes ou minicomputadores por meio de cabos, que exibiam texto e permitiam ao usuário inserir comandos usando um teclado. Eles eram comuns antes do surgimento das interfaces gráficas de usuário (GUIs).
 
@@ -113,21 +118,21 @@ Com o avanço da tecnologia e o surgimento de interfaces gráficas de usuário, 
 
 Os terminais podem variar em termos de funcionalidades e recursos. Alguns terminais oferecem recursos avançados, como divisão de tela, personalização da aparência e suporte a abas, enquanto outros são mais simples e focados apenas na funcionalidade básica de entrada e saída de texto.
 
-## Shells
+### Shells
 
 O shell é um interpretador de comandos que aceita entrada do usuário em forma de texto e os executa como comandos no sistema operacional. Ele age como uma interface entre o usuário e o núcleo do sistema operacional, interpretando os comandos inseridos pelo usuário e realizando as ações correspondentes.
 
 Existem vários shells disponíveis no Linux, cada um com suas próprias características e funcionalidades. Alguns dos shells mais comuns incluem:
 
-- **Bash (Bourne Again SHell)**: O Bash é o shell padrão na maioria das distribuições Linux e é amplamente utilizado devido à sua poderosa capacidade de scripting e suporte a recursos avançados, como expansão de variáveis e histórico de comandos.
-- **Zsh (Z shell)**: O Zsh é um shell alternativo que oferece recursos adicionais em comparação com o Bash, como conclusão de comandos mais inteligente, temas personalizáveis e suporte a plugins.
-- **Fish (Friendly Interactive SHell)**: O Fish é conhecido por sua interface amigável e intuitiva, com recursos como conclusão automática de comandos, sugestões interativas e coloração de sintaxe.
+* **Bash (Bourne Again SHell)**: O Bash é o shell padrão na maioria das distribuições Linux e é amplamente utilizado devido à sua poderosa capacidade de scripting e suporte a recursos avançados, como expansão de variáveis e histórico de comandos.
+* **Zsh (Z shell)**: O Zsh é um shell alternativo que oferece recursos adicionais em comparação com o Bash, como conclusão de comandos mais inteligente, temas personalizáveis e suporte a plugins.
+* **Fish (Friendly Interactive SHell)**: O Fish é conhecido por sua interface amigável e intuitiva, com recursos como conclusão automática de comandos, sugestões interativas e coloração de sintaxe.
 
 Cada shell tem sua própria linguagem de script e conjunto de recursos exclusivos, permitindo que os usuários escolham o que melhor se adapta às suas necessidades e preferências.
 
 > Em resumo, o terminal é a interface de usuário que fornece acesso ao shell, enquanto o shell é o interpretador de comandos responsável por processar os comandos inseridos pelo usuário e executar as ações correspondentes no sistema operacional. Eles trabalham juntos para fornecer uma maneira eficaz de interagir com o sistema operacional por meio de comandos de texto.
 
-# Gerenciador de Pacotes
+## Gerenciador de Pacotes
 
 Os gerenciadores de pacotes são ferramentas essenciais em sistemas operacionais Linux que simplificam o processo de instalação, remoção e atualização de software. Eles automatizam o gerenciamento de dependências e garantem que as versões corretas dos pacotes sejam instaladas para manter o sistema funcionando de forma eficiente e segura.
 
@@ -143,7 +148,7 @@ Para instalar um novo aplicativo usando um gerenciador de pacotes, basta executa
 sudo apt install vim
 ```
 
-## Atualização do Sistema:
+### Atualização do Sistema:
 
 Para manter o sistema atualizado, é importante atualizar regularmente os pacotes instalados. Isso pode ser feito usando o comando de atualização apropriado para o gerenciador de pacotes em uso. Por exemplo, para atualizar todos os pacotes no sistema usando o APT, você pode usar o comando:
 
@@ -153,7 +158,7 @@ sudo apt update && sudo apt upgrade
 
 O primeiro comando (`apt update`) atualiza a lista de pacotes disponíveis nos repositórios, enquanto o segundo comando (`apt upgrade`) instala as atualizações disponíveis.
 
-# Sistema de Arquivos
+## Sistema de Arquivos
 
 Uma das principais propriedades dos sistemas UNIX nos quais o Linux é baseado é que quase tudo que você precisa identificar em seu sistema (dados, comandos, links simbólicos, dispositivos e diretórios) é representado por itens nos sistemas de arquivos. Dominar a localização e a navegação por esses elementos através do shell é fundamental para quem utiliza o Linux.
 
@@ -161,47 +166,29 @@ A organização dos arquivos no Linux segue uma hierarquia de diretórios, na qu
 
 A estrutura de diretórios no Linux assemelha-se a uma árvore, tendo o diretório raiz representado por uma única barra (`/`). Logo abaixo encontram-se diretórios comuns, como bin, dev, home, lib e tmp. Cada um desses diretórios principais, assim como aqueles adicionados ao diretório raiz, podem conter uma infinidade de subdiretórios.
 
-<p style="text-align: center">
-  <img src="./Imagens/linuxFileTree.png" alt="Linux File Tree">
-</p>
+![Linux File Tree](../Imagens/linuxFileTree.png)
 
 Segue uma breve explicação dos diretórios fundamentais:
 
-- **/** (Raiz): Este é o diretório raiz do sistema de arquivos. Todos os outros diretórios estão contidos dentro dele. É representado por uma barra (`/`) e é o ponto de partida para a hierarquia do sistema de arquivos.
+* **/** (Raiz): Este é o diretório raiz do sistema de arquivos. Todos os outros diretórios estão contidos dentro dele. É representado por uma barra (`/`) e é o ponto de partida para a hierarquia do sistema de arquivos.
+* **/bin** (Binários): Este diretório contém os binários essenciais do sistema, como ls, sort, date e chmod. São os comandos fundamentais necessários para a inicialização e operação do sistema, disponíveis para todos os usuários.
+* **/boot** (Inicialização): Contém arquivos necessários para a inicialização do sistema, como o kernel do Linux, arquivos de configuração do bootloader (como o GRUB), entre outros.
+* **/dev** (Dispositivos): Contém arquivos de dispositivo que representam interfaces para dispositivos de hardware conectados ao sistema, como discos rígidos, unidades USB, impressoras, etc. Os usuários podem acessar esses dispositivos diretamente por meio desses arquivos de dispositivos; no entanto, os aplicativos geralmente ocultam os nomes reais dos dispositivos dos usuários finais.
+* **/etc** (Configurações): Armazena arquivos de configuração do sistema e dos aplicativos. Configurações do sistema, como arquivos de rede, configurações do servidor, entre outros, são encontradas aqui. A maioria desses arquivos são arquivos de texto simples que podem ser editados com qualquer editor de texto se o usuário tiver permissão adequada.
+* **/home** : Este diretório contém os diretórios pessoais dos usuários. Cada usuário registrado no sistema terá um diretório correspondente aqui para armazenar seus arquivos pessoais. (O usuário root é uma exceção, usando `/root` como seu diretório inicial.)
+* **/media** : O diretório `/media` é usado como ponto de montagem temporário para dispositivos de mídia removíveis, como unidades USB, CDs, DVDs e cartões de memória. Quando um dispositivo removível é conectado ao sistema, ele é automaticamente montado em um subdiretório dentro de `/media`. Por exemplo, se você conectar um pendrive, ele poderá ser montado em `/media/usb` ou um nome similar. Esse diretório fornece um local conveniente para acessar temporariamente o conteúdo desses dispositivos de mídia.
+* **/lib** (Bibliotecas): Contém bibliotecas compartilhadas necessárias para os programas do sistema e para a inicialização do sistema.
+* **/mnt** (Montagem): Ponto de montagem para dispositivos de armazenamento temporários ou removíveis, como discos rígidos externos, pendrives, CDs, etc. Alguns sistemas Linux inicializáveis ainda usam esse diretório para montar partições de disco rígido e sistemas de arquivos remotos. Muitas pessoas ainda usam este diretório para montar temporariamente sistemas de arquivos locais ou remotos que não são montados permanentemente.
+* **/misc** (Miscelânea): O diretório `/misc` não é um diretório padrão no Filesystem Hierarchy Standard (FHS) do Linux. Normalmente, ele é utilizado para armazenar arquivos ou diretórios que não se encaixam em outras categorias específicas. É comum encontrar sistemas onde os administradores usam `/misc` como um local genérico para armazenar arquivos que não possuem uma localização mais apropriada.
+* **/opt** (Opcional): Este diretório é usado para instalar pacotes de software adicionais não fornecidos pelos repositórios oficiais da distribuição. É comumente usado por aplicativos comerciais ou de terceiros.
+* **/proc** (Processos): Contém informações sobre processos em execução no sistema. Os arquivos neste diretório são usados principalmente para interagir com o kernel e obter informações sobre o sistema e os processos em execução.
+* **/root** (Superusuário): Este diretório é o diretório pessoal do superusuário (root) no sistema Linux. Enquanto o diretório `/home` contém os diretórios pessoais dos usuários normais, o diretório `/root` é reservado exclusivamente para o superusuário. O diretório inicial do root não reside abaixo de `/home` por motivos de segurança.
+* **/sbin** (Binários do Sistema): Semelhante ao diretório `/bin`, mas contém binários essenciais do sistema destinados apenas para uso pelo superusuário (root).
+* **/tmp** (Temporário): Diretório para arquivos temporários. Os arquivos armazenados aqui são geralmente excluídos automaticamente durante a inicialização ou em intervalos regulares.
+* **/usr** (Recursos do Usuário): Contém recursos compartilhados, como binários, bibliotecas, arquivos de cabeçalho e documentação para aplicativos do usuário. Este diretório é subdividido em `/usr/bin`, `/usr/lib`, `/usr/include`, entre outros.
+* **/var** (Variável): Armazena dados variáveis do sistema, como logs de sistema (`/var/log`), spools de email (`/var/mail`), arquivos de banco de dados temporários (`/var/tmp`), entre outros. Em particular, é aqui que você colocaria os arquivos que você compartilha como um servidor FTP `(/var/ftp`) ou um servidor web (/var/www)\`\`.
 
-- **/bin** (Binários): Este diretório contém os binários essenciais do sistema, como ls, sort, date e chmod. São os comandos fundamentais necessários para a inicialização e operação do sistema, disponíveis para todos os usuários.
-
-- **/boot** (Inicialização): Contém arquivos necessários para a inicialização do sistema, como o kernel do Linux, arquivos de configuração do bootloader (como o GRUB), entre outros.
-
-- **/dev** (Dispositivos): Contém arquivos de dispositivo que representam interfaces para dispositivos de hardware conectados ao sistema, como discos rígidos, unidades USB, impressoras, etc. Os usuários podem acessar esses dispositivos diretamente por meio desses arquivos de dispositivos; no entanto, os aplicativos geralmente ocultam os nomes reais dos dispositivos dos usuários finais.
-
-- **/etc** (Configurações): Armazena arquivos de configuração do sistema e dos aplicativos. Configurações do sistema, como arquivos de rede, configurações do servidor, entre outros, são encontradas aqui. A maioria desses arquivos são arquivos de texto simples que podem ser editados com qualquer editor de texto se o usuário tiver permissão adequada.
-
-- **/home** : Este diretório contém os diretórios pessoais dos usuários. Cada usuário registrado no sistema terá um diretório correspondente aqui para armazenar seus arquivos pessoais. (O usuário root é uma exceção, usando `/root` como seu diretório inicial.)
-
-- **/media** : O diretório `/media` é usado como ponto de montagem temporário para dispositivos de mídia removíveis, como unidades USB, CDs, DVDs e cartões de memória. Quando um dispositivo removível é conectado ao sistema, ele é automaticamente montado em um subdiretório dentro de `/media`. Por exemplo, se você conectar um pendrive, ele poderá ser montado em `/media/usb` ou um nome similar. Esse diretório fornece um local conveniente para acessar temporariamente o conteúdo desses dispositivos de mídia.
-
-- **/lib** (Bibliotecas): Contém bibliotecas compartilhadas necessárias para os programas do sistema e para a inicialização do sistema.
-
-- **/mnt** (Montagem): Ponto de montagem para dispositivos de armazenamento temporários ou removíveis, como discos rígidos externos, pendrives, CDs, etc. Alguns sistemas Linux inicializáveis ainda usam esse diretório para montar partições de disco rígido e sistemas de arquivos remotos. Muitas pessoas ainda usam este diretório para montar temporariamente sistemas de arquivos locais ou remotos que não são montados permanentemente.
-
-- **/misc** (Miscelânea): O diretório `/misc` não é um diretório padrão no Filesystem Hierarchy Standard (FHS) do Linux. Normalmente, ele é utilizado para armazenar arquivos ou diretórios que não se encaixam em outras categorias específicas. É comum encontrar sistemas onde os administradores usam `/misc` como um local genérico para armazenar arquivos que não possuem uma localização mais apropriada.
-
-- **/opt** (Opcional): Este diretório é usado para instalar pacotes de software adicionais não fornecidos pelos repositórios oficiais da distribuição. É comumente usado por aplicativos comerciais ou de terceiros.
-
-- **/proc** (Processos): Contém informações sobre processos em execução no sistema. Os arquivos neste diretório são usados principalmente para interagir com o kernel e obter informações sobre o sistema e os processos em execução.
-
-- **/root** (Superusuário): Este diretório é o diretório pessoal do superusuário (root) no sistema Linux. Enquanto o diretório `/home` contém os diretórios pessoais dos usuários normais, o diretório `/root` é reservado exclusivamente para o superusuário. O diretório inicial do root não reside abaixo de `/home` por motivos de segurança.
-
-- **/sbin** (Binários do Sistema): Semelhante ao diretório `/bin`, mas contém binários essenciais do sistema destinados apenas para uso pelo superusuário (root).
-
-- **/tmp** (Temporário): Diretório para arquivos temporários. Os arquivos armazenados aqui são geralmente excluídos automaticamente durante a inicialização ou em intervalos regulares.
-
-- **/usr** (Recursos do Usuário): Contém recursos compartilhados, como binários, bibliotecas, arquivos de cabeçalho e documentação para aplicativos do usuário. Este diretório é subdividido em `/usr/bin`, `/usr/lib`, `/usr/include`, entre outros.
-
-- **/var** (Variável): Armazena dados variáveis do sistema, como logs de sistema (`/var/log`), spools de email (`/var/mail`), arquivos de banco de dados temporários (`/var/tmp`), entre outros. Em particular, é aqui que você colocaria os arquivos que você compartilha como um servidor FTP `(/var/ftp`) ou um servidor web (/var/www)``.
-
-## Permissões de Arquivos
+### Permissões de Arquivos
 
 As permissões de arquivos no sistema operacional Linux são um aspecto crucial da segurança e da gestão de acesso aos arquivos. Elas determinam quem pode ler, escrever ou executar um arquivo ou diretório. As permissões de um arquivo são exibidas ao listar os arquivos em um diretório e geralmente aparecem como uma série de caracteres, como por exemplo: `drwxr-xr-x`.
 
@@ -221,14 +208,14 @@ As permissões são exibidas em um formato composto por 10 caracteres. Os primei
 
 Por exemplo, considerando `drwxr-xr-x`:
 
-- O `d` no início indica que é um diretório.
-- Os próximos três caracteres (`rwx`) indicam as permissões do proprietário (read, write e execute).
-- Os próximos três caracteres (`r-x`) indicam as permissões do grupo (read e execute).
-- Os últimos três caracteres (`r-x`) indicam as permissões para outros usuários (read e execute).
+* O `d` no início indica que é um diretório.
+* Os próximos três caracteres (`rwx`) indicam as permissões do proprietário (read, write e execute).
+* Os próximos três caracteres (`r-x`) indicam as permissões do grupo (read e execute).
+* Os últimos três caracteres (`r-x`) indicam as permissões para outros usuários (read e execute).
 
 Para modificar as permissões de um arquivo ou diretório, o comando `chmod` é utilizado. Ele permite adicionar ou remover permissões para o proprietário, grupo e outros usuários, conforme necessário.
 
-# Comandos Úteis
+## Comandos Úteis
 
 A seguir estão alguns dos comandos utilizados com maior frequência em Linux:
 
@@ -248,33 +235,31 @@ A seguir estão alguns dos comandos utilizados com maior frequência em Linux:
 14. **chown**: O comando `chown` é usado para alterar o proprietário e/ou grupo de um arquivo ou diretório. Isso é útil para transferir a propriedade de um arquivo para outro usuário ou grupo.
 15. **sudo**: O comando `sudo` é usado para executar comandos com privilégios de superusuário (root). Ele permite que usuários autorizados executem tarefas que normalmente exigiriam permissões elevadas.
 
-## Detalhes interessantes para iniciantes:
+### Detalhes interessantes para iniciantes:
 
-- **Flag -h**: Em muitos comandos Unix e Linux, a flag `-h` é usada como uma abreviação para "help" (ajuda). Quando usada junto com um comando ela geralmente exibe uma mensagem de ajuda ou uma breve descrição dos argumentos e opções disponíveis para esse comando específico. Esta opção é útil para obter informações rápidas sobre como usar um comando ou suas opções.
-- **Flag --help**: A flag `--help` é semelhante à flag `-h`, mas é uma convenção comum em muitos programas Linux para fornecer uma descrição mais detalhada das opções e argumentos disponíveis para o comando. Quando usada, geralmente exibe uma mensagem de ajuda mais abrangente, incluindo exemplos de uso e uma descrição detalhada de todas as opções disponíveis. Por exemplo, você pode usar `ls --help` ou `rm --help` para obter informações detalhadas sobre como usar os comandos `ls` e `rm`, respectivamente.
+* **Flag -h**: Em muitos comandos Unix e Linux, a flag `-h` é usada como uma abreviação para "help" (ajuda). Quando usada junto com um comando ela geralmente exibe uma mensagem de ajuda ou uma breve descrição dos argumentos e opções disponíveis para esse comando específico. Esta opção é útil para obter informações rápidas sobre como usar um comando ou suas opções.
+* **Flag --help**: A flag `--help` é semelhante à flag `-h`, mas é uma convenção comum em muitos programas Linux para fornecer uma descrição mais detalhada das opções e argumentos disponíveis para o comando. Quando usada, geralmente exibe uma mensagem de ajuda mais abrangente, incluindo exemplos de uso e uma descrição detalhada de todas as opções disponíveis. Por exemplo, você pode usar `ls --help` ou `rm --help` para obter informações detalhadas sobre como usar os comandos `ls` e `rm`, respectivamente.
 
 Em sistemas Linux, as flags que começam com um único traço (-) são frequentemente chamadas de "opções de linha de comando de curto formato", enquanto as que começam com dois traços (--) são conhecidas como "opções de linha de comando de longo formato".
 
 1. **Opções de linha de comando de curto formato (-)**:
-    - São frequentemente usadas para opções curtas e geralmente consistem em uma única letra.
-    - Podem ser agrupadas para economizar espaço na linha de comando.
-    - Por exemplo: `ls -l -a` ou `ls -la`.
+   * São frequentemente usadas para opções curtas e geralmente consistem em uma única letra.
+   * Podem ser agrupadas para economizar espaço na linha de comando.
+   * Por exemplo: `ls -l -a` ou `ls -la`.
 2. **Opções de linha de comando de longo formato (--)**:
-    - São usadas para opções mais descritivas e autoexplicativas.
-    - Normalmente consistem em palavras ou frases, tornando-as mais legíveis.
-    - Não podem ser agrupadas.
-    - Por exemplo: `ls --all` ou `ls --color=auto`.
+   * São usadas para opções mais descritivas e autoexplicativas.
+   * Normalmente consistem em palavras ou frases, tornando-as mais legíveis.
+   * Não podem ser agrupadas.
+   * Por exemplo: `ls --all` ou `ls --color=auto`.
 
 Ambas as formas de especificar opções são amplamente aceitas e suportadas na maioria dos programas de linha de comando em sistemas Linux. A escolha entre uma ou outra muitas vezes se resume à preferência pessoal do usuário ou às convenções específicas do programa em questão.
 
-# Conclusão e Sugestões para Aprofundamento
+## Conclusão e Sugestões para Aprofundamento
 
 Neste artigo vimos alguns conceitos básicos de sistemas Linux dando ênfase a distro Kali Linux que é a preferida por profissionais de cibersegurança. Deixo por fim algumas sugestões de leituras e vídeos para se aprofundar em sistemas Linux:
 
-- **Negus, C. (2020). _Linux bible_, 10th Edition.**
-- **37 principais comandos do Linux: do básico ao avançado**: https://diolinux.com.br/sistemas-operacionais/principais-comandos-do-linux-saiba-o.html
-- **Curso de Linux - Primeiros Passos (Curso em Vídeo):** https://www.youtube.com/playlist?list=PLHz_AreHm4dlIXleu20uwPWFOSswqLYbV
-- **Canal Diolinux:** https://www.youtube.com/@Diolinux
-- **Site Oficial do Linux:** https://www.kernel.org/linux.html
-
-
+* **Negus, C. (2020).&#x20;**_**Linux bible**_**, 10th Edition.**
+* **37 principais comandos do Linux: do básico ao avançado**: https://diolinux.com.br/sistemas-operacionais/principais-comandos-do-linux-saiba-o.html
+* **Curso de Linux - Primeiros Passos (Curso em Vídeo):** https://www.youtube.com/playlist?list=PLHz\_AreHm4dlIXleu20uwPWFOSswqLYbV
+* **Canal Diolinux:** https://www.youtube.com/@Diolinux
+* **Site Oficial do Linux:** https://www.kernel.org/linux.html
