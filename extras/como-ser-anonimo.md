@@ -48,3 +48,8 @@ Mesmo com todas as camadas anteriores bem configuradas, o **comportamento do usu
 Manter-se anônimo na internet é um desafio técnico e comportamental que exige disciplina, consistência e conhecimento aprofundado sobre como a infraestrutura digital funciona. São muitas as etapas envolvidas — da escolha do hardware e do sistema operacional ao comportamento cotidiano do usuário — e basta um único deslize, por menor que pareça, para comprometer toda a cadeia de anonimato. Um acesso a uma conta pessoal, a reutilização de um apelido antigo ou a conexão acidental em uma rede conhecida pode fornecer os dados necessários para reconstruir a identidade real por trás da persona anônima.
 
 Por isso, mais do que seguir um checklist de boas práticas, alcançar níveis elevados de anonimato requer uma postura permanente de **vigilância operacional**, avaliação contínua de risco e uma **compreensão crítica das ameaças**. O anonimato, portanto, não é um estado, mas um **processo contínuo de defesa contra correlação e exposição**.
+
+---
+## Leituras Recomendadas
+
+* **darknetbible.info** – Artigos com as melhores práticas sobre OPSEC, privacidade e anonimato: [https://darknetbible.info/](https://darknetbible.info/)
