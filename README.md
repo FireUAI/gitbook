@@ -22,6 +22,7 @@ Estes artigos já estão completos e disponíveis para leitura:
 * [Criptografia](criptografia/criptografia.md)
 * [Escalação de Privilégios](full-pwn/privilege-escalation.md)
 * [Reconhecimento do Alvo](full-pwn/reconhecimento-do-alvo.md)
+* [Tipos de Hacker](introducao/tipos-de-hacker.md)
 
 ## ✏️ Artigos em desenvolvimento
 
@@ -29,7 +30,6 @@ Estes temas estão sendo escritos ou revisados no momento:
 
 * [Ética](introducao/etica.md)
 * [Profissões em cibersegurança](introducao/profissoes-em-ciberseguranca.md)
-* [Tipos de Hacker](introducao/tipos-de-hacker.md)
 
 ## 📌 Artigos planejados
 
