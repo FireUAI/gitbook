@@ -23,6 +23,7 @@ Estes artigos já estão completos e disponíveis para leitura:
 * [Escalação de Privilégios](full-pwn/privilege-escalation.md)
 * [Reconhecimento do Alvo](full-pwn/reconhecimento-do-alvo.md)
 * [Tipos de Hacker](introducao/tipos-de-hacker.md)
+* [Buffer Overflow](binary-exploitation/buffer%20overflow.md)
 
 ## ✏️ Artigos em desenvolvimento
 
@@ -35,7 +36,6 @@ Estes temas estão sendo escritos ou revisados no momento:
 
 Tópicos que ainda não foram iniciados, mas estão em nosso planejamento:
 
-* Buffer Overflow
 * Directory Scan
 * Metasploit
 * Port Scan

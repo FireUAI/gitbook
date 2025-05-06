@@ -26,6 +26,10 @@
 * [Reconhecimento do Alvo](full-pwn/reconhecimento-do-alvo.md)
 * [Escalação de Privilégios](full-pwn/privilege-escalation.md)
 
+## Exploração Binária
+
+* [Buffer Overflow](binary-exploitation/buffer%20overflow.md)
+
 ## Criptografia
 
 * [Criptografia](criptografia/criptografia.md)
