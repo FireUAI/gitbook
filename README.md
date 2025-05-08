@@ -31,6 +31,7 @@ Estes temas estão sendo escritos ou revisados no momento:
 
 * [Ética](introducao/etica.md)
 * [Profissões em cibersegurança](introducao/profissoes-em-ciberseguranca.md)
+* [Eng Reversa - Visão Geral](engenharia-reversa/visão%20geral.md)
 
 ## 📌 Artigos planejados
 
