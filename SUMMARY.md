@@ -30,6 +30,10 @@
 
 * [Buffer Overflow](<binary-exploitation/buffer overflow.md>)
 
+## Engenharia Reversa
+
+* [Visão Geral](engenharia-reversa/visão%20geral.md)
+
 ## Criptografia
 
 * [Criptografia](criptografia/criptografia.md)
