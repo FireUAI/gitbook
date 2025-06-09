@@ -19,6 +19,7 @@
 * [O protocolo HTTP](seguranca-web/http-e-https.md)
 * [Estrutura de uma URL](seguranca-web/estrutura-de-uma-url.md)
 * [IDOR](seguranca-web/idor.md)
+* [XSS](seguranca-web/xss.md)
 * [SQL Injection](seguranca-web/sql-injection.md)
 
 ## Full Pwn
