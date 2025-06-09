@@ -17,6 +17,7 @@ Estes artigos já estão completos e disponíveis para leitura:
 * [O protocolo HTTP](seguranca-web/http-e-https.md)
 * [Estrutura de uma URL](seguranca-web/estrutura-de-uma-url.md)
 * [IDOR](seguranca-web/idor.md)
+* [XSS](seguranca-web/xss.md)
 * [SQL Injection](seguranca-web/sql-injection.md)
 * [Como ser Anônimo](extras/como-ser-anonimo.md)
 * [Criptografia](criptografia/criptografia.md)
@@ -40,5 +41,4 @@ Tópicos que ainda não foram iniciados, mas estão em nosso planejamento:
 * Directory Scan
 * Metasploit
 * Port Scan
-* XSS
 * (entre outros)
