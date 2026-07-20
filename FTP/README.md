@@ -1,6 +1,3 @@
-```{=org}
-#+filetags: :fleeting:
-```
 # FTP - Semana 1: Mentalidade Hacker, Fundamentos e Linux
 
 Seja muito bem-vindo(a) ao FireUAI Training Process (FTP) de 2026/2!
@@ -391,12 +388,12 @@ aprendeu, não fazer uma benchmark de um modelo comercial.
 
 ## Materiais Recomendados
 
-FIREUAI. Conceitos básicos. Disponível em:
-<https://fireuai.gitbook.io/fireuai/introducao/conceitos-basicos>.
-FIREUAI. O essencial de Linux. Disponível em:
-<https://fireuai.gitbook.io/fireuai/fundamentos/essencial-de-linux>.
-FIREUAI. Tipos de hacker. Disponível em:
-<https://fireuai.gitbook.io/fireuai/introducao/tipos-de-hacker>.
+FIREUAI. Conceitos básicos. Disponível em: <https://fireuai.gitbook.io/fireuai/introducao/conceitos-basicos>.
+
+FIREUAI. O essencial de Linux. Disponível em: <https://fireuai.gitbook.io/fireuai/fundamentos/essencial-de-linux>.
+
+FIREUAI. Tipos de hacker. Disponível em: <https://fireuai.gitbook.io/fireuai/introducao/tipos-de-hacker>.
+
 MITNICK, Kevin D.; SIMON, William L. The Art of Intrusion: The Real
 Stories Behind the Exploits of Hackers, Intruders & Deceivers.
 Indianapolis: Wiley Publishing, 2005.
